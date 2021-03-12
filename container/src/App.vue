@@ -53,4 +53,8 @@ export default {
     height: calc(100% - 61px);
     overflow: hidden;
   }
+  #subApp-container div[data-name] {
+    width: 100%;
+    height: 100%;
+  }
 </style>

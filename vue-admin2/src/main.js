@@ -77,5 +77,3 @@ export async function unmount() {
   instance.$el.innerHTML = '';
   instance = null;
 }
-
-console.log(window.__POWERED_BY_QIANKUN__)
