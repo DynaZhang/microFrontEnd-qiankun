@@ -11,6 +11,9 @@ import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 import "normalize.css/normalize.css";
 
+import Cookies from 'js-cookies'
+Cookies.setItem('token', 'super_admin')
+
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 

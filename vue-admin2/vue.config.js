@@ -1,8 +1,6 @@
 const path = require('path')
 const packageName = require('./package.json').name
 
-console.log(packageName)
-
 const resolve = dir => {
   return path.join(__dirname, dir)
 }
